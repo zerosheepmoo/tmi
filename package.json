@@ -1,6 +1,11 @@
 {
   "name": "study",
   "version": "1.0.0",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
   "main": "index.js",
   "license": "MIT"
 }
