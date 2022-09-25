@@ -1,4 +1,5 @@
 import { defineConfig } from "vitepress";
+import { allSidebars } from "./configs/all";
 
 export default defineConfig({
     lang: "ko-KR",
@@ -7,17 +8,20 @@ export default defineConfig({
     base: "/ns-study/",
     themeConfig: {
         // Type is `DefaultTheme.Config`
-        sidebar: [
-            {
-                text: "Knowre",
-                collapsible: true,
-                items: [
-                    { text: "Intro", link: "/knowre/" }, // //knowre//index.md
-                    { text: "0. git", link: "/knowre/00git" }, // /knowre/00git.md
-                    { text: "1. html", link: "/knowre/01html" }, // /knowre/01html.md
-                ],
-            },
-        ],
+        sidebar: {
+            "/knowre/": [
+                {
+                    text: "Knowre",
+                    collapsible: true,
+                    items: [
+                        { text: "Intro", link: "/knowre/" }, // //knowre//index.md
+                        { text: "0. git", link: "/knowre/00git" }, // /knowre/00git.md
+                        { text: "1. html", link: "/knowre/01html" }, // /knowre/01html.md
+                    ],
+                },
+            ],
+            ...allSidebars,
+        },
     },
     outDir: "../out",
 });
