@@ -10,7 +10,7 @@
       
       utterances.setAttribute('issue-term', 'pathname'); // pathname | url | title | og:title 중 택 1
       utterances.setAttribute('theme','github-light');
-      utterances.setAttribute('repo', 'zerosheepmoo/ns-study' );
+      utterances.setAttribute('repo', 'zerosheepmoo/tmi' );
   
       this.$refs.comment.appendChild(utterances);
     }

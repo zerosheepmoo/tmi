@@ -5,7 +5,7 @@ export default defineConfig({
     lang: "ko-KR",
     title: "TMI",
     description: "TMr founders Dev's Indoor",
-    base: "/ns-study/",
+    base: "/tmi/",
     themeConfig: {
         // Type is `DefaultTheme.Config`
         sidebar: {
