@@ -1,1 +1,0 @@
-import{_ as t,c as o,e as n,o as s,r as a}from"./app.c84d3a62.js";const u=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"test.md"}'),r={name:"test.md"};function c(m,p,_,d,i,l){const e=a("Comment");return s(),o("div",null,[n(e)])}const $=t(r,[["render",c]]);export{u as __pageData,$ as default};
