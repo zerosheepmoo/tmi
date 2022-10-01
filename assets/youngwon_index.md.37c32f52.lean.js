@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as t,b as n}from"./app.b8337294.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"youngwon/index.md"}'),s={name:"youngwon/index.md"},a=n("p",null,"Young Won's Memo",-1),r=[a];function c(d,_,i,p,l,m){return t(),o("div",null,r)}const x=e(s,[["render",c]]);export{f as __pageData,x as default};
