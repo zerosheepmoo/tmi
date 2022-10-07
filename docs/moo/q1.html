@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <!-- TODO: 또 무엇이 필요할까요? -->
+        <title>따라하기</title>
+        <link rel="stylesheet" href="./style.css" />
+        <script
+            src="https://kit.fontawesome.com/02b3453d5b.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+
+    <body>
+        <!-- 잘못된 코드 ㅠㅠ -->
+        <!-- 헤더는 맨 위에 것만 -->
+        <header>
+            <!-- TODO: 어디까지를 header로 보는 것이 좋을까요? -->
+            <section class="logo-con">
+                <img src="./logo.png" alt="logo" />
+            </section>
+
+            <section class="searchbar">
+                <div class="searchbar-textinput-con">
+                    <input
+                        type="text"
+                        style="width: 100%"
+                        placeholder="검색어를 입력해주세요."
+                    />
+                </div>
+                <div class="searchbar-icons" style="display: flex">
+                    <div>
+                        <i class="fa-solid fa-microphone"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-qrcode"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-location-pin"></i>
+                    </div>
+                </div>
+            </section>
+
+            <nav>
+                <!-- 실무였으면 아마 ul 안썻을 거에요 -->
+                <ul class="no-bullet nav-li">
+                    <li>
+                        <button style="width: 100px; height: 100px"></button>
+                    </li>
+                    <li>
+                        <button style="width: 100px; height: 100px"></button>
+                    </li>
+                    <li>
+                        <button style="width: 100px; height: 100px"></button>
+                    </li>
+                    <li>
+                        <button style="width: 100px; height: 100px"></button>
+                    </li>
+                </ul>
+                <ul class="no-bullet nav-li">
+                    <li>
+                        <button style="width: 100px; height: 100px"></button>
+                    </li>
+                    <li>
+                        <button style="width: 100px; height: 100px"></button>
+                    </li>
+                    <li>
+                        <button style="width: 100px; height: 100px"></button>
+                    </li>
+                    <li>
+                        <button style="width: 100px; height: 100px"></button>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section
+                style="border: 1px solid black; width: 100%; height: 50px"
+                class="weather-summary"
+            >
+                <!-- TODO: article and icons button -->
+            </section>
+            <section
+                style="border: 1px solid black; width: 100%; height: 50px"
+                class="weather"
+            >
+                <!-- TODO: tab button, article -->
+            </section>
+            <section
+                style="border: 1px solid black; width: 100%; height: 50px"
+                class="covid"
+            >
+                <!-- TODO text button and link -->
+            </section>
+            <section
+                style="border: 1px solid black; width: 100%; height: 50px"
+                class="today-memorial"
+            >
+                <!-- TODO textbutton and link -->
+            </section>
+            <section
+                style="border: 1px solid black; width: 100%; height: 50px"
+                class="naver-app-adv"
+            >
+                <!-- TODO icons +text + button -->
+            </section>
+            <section
+                style="border: 1px solid black; width: 100%; height: 50px"
+                class="webtoon"
+            >
+                <!-- TODO dropdown -->
+            </section>
+            <section
+                style="border: 1px solid black; width: 100%; height: 50px"
+                class="pop-pan"
+            >
+                <!-- TODO heading href for 판 관리, icon + text + link icon button * 4-->
+            </section>
+            <section
+                style="border: 1px solid black; width: 100; height: 50px"
+                class="notice"
+            >
+                <!-- TODO text + link icon button * 4 -->
+            </section>
+        </main>
+
+        <footer>
+            <!-- TODO: 하단의 여러 가지 링크들은 어떻게 처리하면 좋을까요? -->
+            <div
+                style="
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                "
+            >
+                <img src="./logo.png" alt="logo" class="foot-logo" />
+            </div>
+            <div>
+                <ul
+                    className="no-bullet nav-li"
+                    style="
+                        display: flex;
+                        justify-content: center;
+                        column-gap: 2em;
+                    "
+                >
+                    <li>
+                        <a href="#">로그인</a>
+                    </li>
+                    <li>
+                        <a href="#">전체서비스</a>
+                    </li>
+                    <li>
+                        <a href="#">PC버전</a>
+                    </li>
+                </ul>
+                <ul
+                    className="no-bullet nav-li"
+                    style="
+                        display: flex;
+                        justify-content: center;
+                        column-gap: 2em;
+                    "
+                >
+                    <li>
+                        <a href="#">이용약관</a>
+                    </li>
+                    <li>
+                        <a href="#"><b>개인처리방침</b></a>
+                    </li>
+                    <li>
+                        <a href="#">고객센터</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,91 @@
+/* 전체 */
+html {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* 아이콘 색깔 */
+i {
+    color: green;
+}
+
+a:link {
+    color: grey;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/***** 헤더부분 *****/
+/* 헤더컨테이너 */
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+/* 로고 */
+.logo-con {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.logo-con > img {
+    width: 50%;
+}
+
+/* 서치바 */
+.searchbar {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 20px;
+    border: solid green 1px;
+    border-radius: 5px;
+    padding: 1px;
+}
+
+.searchbar-textinput-con {
+    width: 80%;
+}
+
+.searchbar-textinput-con > input {
+    border: none;
+    outline: none;
+    padding: 0.7em;
+}
+
+.searchbar-icons > div {
+    padding-left: 0.1em;
+    padding-right: 0.1em;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    min-height: 100px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.no-bullet {
+    list-style-type: none;
+}
+
+.nav-li {
+    display: flex; align-content: flex-start; flex-wrap: wrap;
+    list-style-position:inside;
+    margin:0;
+    padding:0; 
+}
+
+/* 푸터 */
+.foot-logo {
+    filter: grayscale(100%);
+    width: 50%
+}
+
