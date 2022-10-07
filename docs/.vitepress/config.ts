@@ -22,6 +22,12 @@ export default defineConfig({
             ],
             ...allSidebars,
         },
+        socialLinks: [
+            {
+                icon: "github",
+                link: "https://github.com/zerosheepmoo/tmi",
+            },
+        ],
     },
     outDir: "../out",
 });
