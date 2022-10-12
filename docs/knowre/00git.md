@@ -24,7 +24,7 @@
 
 ## git 은 어떤 버전관리 시스템?
 
-- 분산형 형상관리 시스템
+- 분산형 시스템
   - 개발자들이 서로의 코드에 맞추는데 시간을 보내기 보다는 구현에 집중하기 위해서
 - `content-addressable filesystem` == simple key-value data base
 
