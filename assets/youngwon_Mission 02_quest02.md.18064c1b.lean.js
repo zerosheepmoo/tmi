@@ -1,0 +1,1 @@
+import{_ as e,c as t,o,a as i}from"./app.b8337294.js";const f=JSON.parse('{"title":"Q2","description":"","frontmatter":{},"headers":[],"relativePath":"youngwon/Mission 02/quest02.md"}'),n={name:"youngwon/Mission 02/quest02.md"},l=i("",2),s=[l];function a(r,d,c,h,p,m){return o(),t("div",null,s)}const S=e(n,[["render",a]]);export{f as __pageData,S as default};
