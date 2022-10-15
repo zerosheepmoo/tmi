@@ -5,7 +5,7 @@
     Inline - declared with html attributes
         Pros: Quick and useful for testing
         Cons: Must style each element individually. Can make code look messy
-    Internal - declared inside the same html file. Must use the <style> tag
+    Internal - declared inside the same html file. Must use the `<style>` tag
         Pros: Class and ID selectors can be used
         Cons: Ok for a single page but too time consuming for multiple pages and increase loading time and space
     External: - declared and called from an external file
@@ -33,7 +33,7 @@
 6. CSS의 비슷한 요소들을 어떤 식으로 정리할 수 있을까요?
     A: Commenting
     B: Spacing differently
-    C: Create different sections for each type i.e. <body> <p> <h1> etc.
+    C: Create different sections for each type i.e. `<body>` `<p>` `<h1>` etc.
     D: Have utility CSS at the bottom
     E: OOCSS
     F: BEM (Block Element Modifier)
